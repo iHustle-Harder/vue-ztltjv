@@ -871,14 +871,12 @@ whoami          Display npm username
                 Options:
                 [--registry <registry>]
                 
-                Run "npm help whoami" for more info
-Specify configs in the ini-formatted file: /home/hustlepack68/.npmrc or on the command line via: npm --key=value
-
-More configuration info: npm help config Configuration fields: npm help 7 config
+            
 
 
 
-**** Run The Following Scripts "@" ****
+***** installation ***** 
+   **** "Run "@" ****
 
 
 @penguin:~$ npm install -g @vscode/vsce --force npm WARN using --force Recommended protections disabled.
@@ -1044,7 +1042,7 @@ ${GLIBC}/nptl:
 ${GLIBC}/dfp
 -bash: syntax error near unexpected token `<'
 
-user@penguin:~/glibc$ npm fund 
+@penguin:~/glibc$ npm fund 
 
 user ├── https://github.com/sponsors/epoberezkin │ └── ajv@8.11.0 ├─┬ https://github.com/sponsors/sindresorhus │ │ └── boxen@7.0.0, camelcase@7.0.1, cli-boxes@3.0.0, string-width@5.1.2, type-fest@2.19.0, widest-line@4.0.1, clipboardy@3.0.0, get-stream@6.0.1, is-stream@2.0.1, onetime@5.1.2, is-docker@2.2.1, is-port-reachable@4.0.0 │ └─┬ https://github.com/chalk/wrap-ansi?sponsor=1 │ │ └── wrap-ansi@8.0.1 │ └── https://github.com/chalk/ansi-styles?sponsor=1 │ └── ansi-styles@6.2.1, ansi-styles@4.3.0 ├── https://github.com/chalk/chalk?sponsor=1 │ └── chalk@5.0.1, chalk@4.1.2 ├── https://github.com/chalk/chalk-template?sponsor=1 │ └── chalk-template@0.4.0 └── https://github.com/sponsors/ljharb └── minimist@1.2.7, string.prototype.replaceall@1.0.7, call-bind@1.0.2, define-properties@1.1.4, has-property-descriptors@1.0.0, es-abstract@1.20.5, es-to-primitive@1.2.1, is-date-object@1.0.5, has-tostringtag@1.0.0, is-symbol@1.0.4, function.prototype.name@1.1.5, functions-have-names@1.2.3, get-symbol-description@1.0.0, gopd@1.0.1, is-callable@1.2.7, is-negative-zero@2.0.2, is-shared-array-buffer@1.0.2, is-string@1.0.7, is-weakref@1.0.2, object-inspect@1.12.2, object.assign@4.1.4, regexp.prototype.flags@1.4.3, safe-regex-test@1.0.0, string.prototype.trimend@1.0.6, string.prototype.trimstart@1.0.6, unbox-primitive@1.0.2, has-bigints@1.0.2, which-boxed-primitive@1.0.2, is-bigint@1.0.4, is-boolean-object@1.1.2, is-number-object@1.0.7, side-channel@1.0.4, get-intrinsic@1.1.3, has-symbols@1.0.3, is-regex@1.1.4
 

@@ -877,16 +877,8 @@ Specify configs in the ini-formatted file: /home/hustlepack68/.npmrc or on the c
 More configuration info: npm help config Configuration fields: npm help 7 config
 
 
-Usage:
 
-npm install install all the dependencies in your project npm install add the dependency to your project npm test run this project's tests npm run run the script named npm -h quick help on npm -l display usage info for all commands npm help search for help on npm help npm more involved overview
-
-npm@9.2.0
-/home/user/.config/nvm/versions/node/v19.2.0/lib/node_modules/npm 
-
-
-**** Run The Following Scripts ****
-"@"penguin"
+**** Run The Following Scripts "@" ****
 
 
 @penguin:~$ npm install -g @vscode/vsce --force npm WARN using --force Recommended protections disabled.
@@ -1004,7 +996,9 @@ Cloning into 'glibc'... remote: Enumerating objects: 16836, done. remote: Counti
 
 
 @penguin:/glibc$ npm config fix cd $HOME/src 
+
 @penguin:/glibc$ npm config fix -l cd $HOME/src 
+
 @penguin:~/glibc$ git clone git://sourceware.org/git/glibc.git
 
 
@@ -1012,6 +1006,7 @@ Cloning into 'glibc'... remote: Enumerating objects: 16836, done. remote: Counti
 
 
 @penguin:~/glibc$ git clone git://sourceware.org/git/glibc.git
+
 @penguin:~/glibc$ npm install
 
 
